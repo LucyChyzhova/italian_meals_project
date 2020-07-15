@@ -45,13 +45,6 @@ background-color: white;
   height: 165px;
 }
 
-.main-picture{
-width: 100%;
-display: flex;
-align-items: center;
-}
-
-
 .first-block,
 .logo{
   display: flex;
@@ -111,9 +104,13 @@ font-size: 12px;
 /* special proposition page*/
 
 .meal-title{
-  color: gray;
+color: gray;
 font-size: 22px;
 background-color: white;
+}
+.main-picture{
+  display: flex;
+  width: 100%;
 }
 li{
   list-style: none;
@@ -196,12 +193,18 @@ color: rgb(231, 99, 38);
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-between;
-  width:238px;
+  width:38%;
 }
 .social-net a{
   text-decoration: none;
   cursor: pointer;
   color: black;
+}
+.picture-about{
+  width:90%;
+}
+.about-link{
+  font-size: 20px;
 }
 
 
@@ -220,4 +223,15 @@ color: rgb(231, 99, 38);
   .cheif-img {
     width: 60px;
 }
+.picture-about{
+  width:100%;
+}
+.about-text{
+width: 80%;
+}
+.social-net,
+.go-project-link{
+  width:90%;
+}
+
 }
