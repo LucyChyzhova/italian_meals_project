@@ -9,10 +9,15 @@ ul, li{
   list-style: none;
   padding-left: 0;
 }
+
 .menu{
   margin-bottom: 2%;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  
+  justify-content: center;
+
 }
 #meal-title,
 .menu a,
@@ -217,6 +222,9 @@ color: rgb(231, 99, 38);
     margin-bottom: 10px;
     margin-top: 10px;
   }
+  .menu a {
+padding-right: 0;
+}
   .menu{
     margin-bottom: 4%;
     align-items: center;

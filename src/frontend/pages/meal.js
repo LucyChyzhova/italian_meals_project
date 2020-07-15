@@ -33,7 +33,7 @@ function renderMeal(meal) {
   <p><a href="https://www.linkedin.com/in/liudmylachyzhova/" target="_blank">LinkedIn</a></p>
   </div>
   <div>
-  <a href="/about" data-navigo> <img class="cheif-img" src="https://live.staticflickr.com/65535/50097908823_d32062acd9_m.jpg" alt="cheif-img"> </a>
+  <a href="/about" data-navigo> <img class="cheif-img" src="https://live.staticflickr.com/65535/50116548013_320ebf7640.jpg" alt="cheif-img"> </a>
   </div>
 </div>`
   document.body.appendChild(myfooter);
