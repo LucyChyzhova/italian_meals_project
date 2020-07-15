@@ -83,8 +83,8 @@ background-color: white;
   color: white;
   display: flex;
   align-items: center;
+  flex-direction: row;
   justify-content: space-evenly;
-  
 }
 
 .contacts a{
@@ -93,7 +93,7 @@ background-color: white;
   color: white;
 }
 .contacts p{
-font-size: 12px;
+font-size: 18px;
 }
 
 .cheif-img{
@@ -109,7 +109,6 @@ font-size: 22px;
 background-color: white;
 }
 .main-picture{
-  display: flex;
   width: 100%;
 }
 li{
@@ -213,15 +212,31 @@ color: rgb(231, 99, 38);
   #logo{
     width: 120px;
     height: 105px;
+    margin-bottom: 25px;
   }
+  .menu{
+    margin-bottom: 4%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start; 
+  }
+  .main-picture{
+width: 100%;
+  }
+
   .menu a{
-  font-size: 14px;
+  font-size: 22px;
+  margin-bottom: 20px;
   }
   .contacts p{
-    font-size: 8px;
+    font-size: 18px;
+    margin-top: 1px;
   }
+
   .cheif-img {
-    width: 60px;
+    width: 100px;
+    padding-left: 0;
+    margin-bottom: 5px;
 }
 .picture-about{
   width:100%;
@@ -229,6 +244,20 @@ color: rgb(231, 99, 38);
 .about-text{
 width: 80%;
 }
+.contacts{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: start; 
+margin-top: 5px;
+
+}
+
+.footer{
+  
+  flex-direction: column;
+}
+
 .social-net,
 .go-project-link{
   width:90%;
