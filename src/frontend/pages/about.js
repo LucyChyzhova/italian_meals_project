@@ -19,7 +19,7 @@ window.handleAboutRequest = () => {
             <div><a class="about-link" href="https://www.linkedin.com/in/liudmylachyzhova/" target="_blank">LinkedIn</a></div>
          </div>
 
-         <div class="about-link go-project-link"><p><a href="/" target="_blank">GO to an Italian meal project...</a></p></div>
+         <div class="about-link go-project-link"><p><a href="/" target="_blank">Go to an Italian meal project...</a></p></div>
          
       </div>
         
