@@ -15,7 +15,7 @@ window.handleHomeRequest = () => {
   
 <div class="first-block">
   <div class="first-block-img">
-  <img class="main-picture" src="https://live.staticflickr.com/65535/50116875496_463bc7fa44_o.jpg" alt="main picture pizza"> </div>
+  <img class="main-picture" src="https://live.staticflickr.com/65535/50116875496_15a8c33420_k.jpg" alt="main picture pizza"> </div>
 </div>
 
 <div class="flag">
