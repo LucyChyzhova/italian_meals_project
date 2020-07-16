@@ -4,11 +4,13 @@ window.handleMealRequest = (params) => {
     .then((response) => response.json())
     .then(
       (response) => (orderForm = renderReservationForm(response, params.id))
-    );
-
-  fetch(`/api/meals/${params.id}`) // http://localhost:3000/meal/4
-    .then((response) => response.json())
-    .then(renderMeal);
+    )
+    .then(()=>
+    {
+      fetch(`/api/meals/${params.id}`) // http://localhost:3000/meal/4
+      .then((response) => response.json())
+      .then(renderMeal);
+  });
 };
 
 function renderMeal(meal) {
@@ -71,7 +73,7 @@ function renderReservationForm(availableMeals, currentMealId) {
 
   <div class="menu">
   <a href="/meals" data-navigo>menu</a>
-  <a href="/meal/41" data-navigo>special proposition</a>
+  <a href="/meal/41" data-navigo>special proposition</a>  
   <a href="/reviews" data-navigo>reviews</a>
   </div>
   ${orderForm}
