@@ -2,19 +2,20 @@ window.handleHomeRequest = () => {
   document.body.innerHTML = `
   
   <div class="logo">
-  <img id="logo" src="https://live.staticflickr.com/65535/50090093592_4a0c888221_o.jpg" alt="mealsShearing-logo"></img>
+  <a href="/"> <img id="logo" src="https://live.staticflickr.com/65535/50090093592_4a0c888221_o.jpg" alt="mealsShearing-logo"></img>
   </div>
+  <div class="first-block">
 
-<div class="first-block">
   <div class="menu">
   <a href="meals" data-navigo>menu</a>
   <a href="meal/41" data-navigo>special proposition</a>
   <a href="reviews" data-navigo>reviews</a>
   </div>
-
-  <div class="first-block-img">
-  <img class="main-picture" src="https://live.staticflickr.com/65535/50116875496_463bc7fa44_o.jpg" alt="main picture pizza"> 
   </div>
+  
+<div class="first-block">
+  <div class="first-block-img">
+  <img class="main-picture" src="https://live.staticflickr.com/65535/50116875496_463bc7fa44_o.jpg" alt="main picture pizza"> </div>
 </div>
 
 <div class="flag">
