@@ -8,9 +8,9 @@ window.handleAboutRequest = () => {
          <div>
             <p>I like what I'm doing now. It's all about design and coding.
              I feel so powerful, just think, I started from scratch and then this full backend and frontend stuff. 
-             I don't want to list all programs and languages... BUT I will try it. 
-             Here I used HTML, CSS, JavaScript, MySQL, PostMan, and Node.js. I guess, there is a room for improvement, but I just started :) </p>
-             <h3>Let's make projects together!</h3>
+             I don't want to list all programs and languages... BUT I will do it. 
+             Here I used HTML, CSS, JavaScript, MySQL, PostMan, and Node.js. I guess, there is still a room for improvement, but I just started :) </p>
+             
              <h3>Let's make projects or just drink a cup of coffee together!</h3>
          </div>
          
