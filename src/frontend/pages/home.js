@@ -10,6 +10,7 @@ window.handleHomeRequest = () => {
   <a href="meals" data-navigo>menu</a>
   <a href="meal/41" data-navigo>special proposition</a>
   <a href="reviews" data-navigo>reviews</a>
+  <a href="/about" data-navigo>about</a>
   </div>
   </div>
   

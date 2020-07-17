@@ -206,6 +206,7 @@ color: rgb(231, 99, 38);
   cursor: pointer;
   color: black;
 }
+
 .picture-about{
   width:90%;
 }
@@ -224,6 +225,7 @@ color: rgb(231, 99, 38);
   }
   .menu a {
 padding-right: 0;
+border-bottom: 1px solid rgb(206, 201, 201);
 }
   .menu{
     margin-bottom: 4%;

@@ -5,12 +5,11 @@ window.handleMealRequest = (params) => {
     .then(
       (response) => (orderForm = renderReservationForm(response, params.id))
     )
-    .then(()=>
-    {
+    .then(() => {
       fetch(`/api/meals/${params.id}`) // http://localhost:3000/meal/4
-      .then((response) => response.json())
-      .then(renderMeal);
-  });
+        .then((response) => response.json())
+        .then(renderMeal);
+    });
 };
 
 function renderMeal(meal) {
@@ -24,7 +23,7 @@ function renderMeal(meal) {
   });
 
   document.body.appendChild(ul);
-  const myfooter = document.createElement("div")
+  const myfooter = document.createElement("div");
   myfooter.innerHTML = `
   <div class="footer">
 
@@ -37,7 +36,7 @@ function renderMeal(meal) {
   <div>
   <a href="/about" data-navigo> <img class="cheif-img" src="https://live.staticflickr.com/65535/50116548013_320ebf7640.jpg" alt="cheif-img"> </a>
   </div>
-</div>`
+</div>`;
   document.body.appendChild(myfooter);
 }
 
@@ -70,13 +69,12 @@ function renderReservationForm(availableMeals, currentMealId) {
   </div>
 
   <div class="first-block">
-
   <div class="menu">
   <a href="/meals" data-navigo>menu</a>
   <a href="/meal/41" data-navigo>special proposition</a>  
   <a href="/reviews" data-navigo>reviews</a>
+  <a href="/about" data-navigo>about</a>
   </div>
   ${orderForm}
   </div>`;
-
 }
