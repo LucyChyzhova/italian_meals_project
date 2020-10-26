@@ -56,7 +56,6 @@ function renderReservationForm(availableMeals, currentMealId) {
     <input type="int" id="number_of_guests" name="number_of_guests"><br><br>
     <input class="submit-btn" type="submit" value="Submit">
   </form>
-    
   </div>
       <div>`;
   } else {

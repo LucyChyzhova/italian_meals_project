@@ -140,11 +140,16 @@ input[type="text"] {
   align-items: center;
   justify-content: center;
 }
+
 #number_of_guests {
-  width: 75px;
+  width: 50px;
   border: 1px solid #ccc;
   border-radius: 4px;
   height: 30px;
+  margin-left: 25px;
+}
+#email{
+  margin-left: 2px;
 }
 
 .submit-btn {
@@ -153,7 +158,7 @@ input[type="text"] {
   border: none;
   width: 250px;
   height: 40px;
-  border-radius: 1px;
+  border-radius: 2px;
 }
 
 /*review*/
