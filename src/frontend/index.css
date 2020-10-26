@@ -1,51 +1,51 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-body{
+body {
   margin: 5px;
 }
-ul, li{
+ul,
+li {
   list-style: none;
   padding-left: 0;
 }
 
-.menu{
+.menu {
   margin-bottom: 2%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  
-  justify-content: center;
 
+  justify-content: center;
 }
 #meal-title,
 .menu a,
-.meal-title a{
-padding-right: 40px;
-text-decoration: none;
-color: gray;
-font-size: 22px;
-background-color: white;
+.meal-title a {
+  padding-right: 40px;
+  text-decoration: none;
+  color: gray;
+  font-size: 22px;
+  background-color: white;
 }
 
-#meal-special-proposition{
+#meal-special-proposition {
   padding-right: 10px;
   font-size: 20px;
 }
 .menu a:hover,
 .meal-title a:hover,
 .social-net a:hover,
-.go-project-link a:hover{
+.go-project-link a:hover {
   color: rgb(231, 99, 38);
   font-weight: bolder;
 }
-.go-project-link a{
+.go-project-link a {
   text-decoration: none;
-  color:rgb(253, 0, 0);
+  color: rgb(253, 0, 0);
 }
 
-#logo{
+#logo {
   width: 180px;
   height: 165px;
   margin-top: 20px;
@@ -53,39 +53,38 @@ background-color: white;
 }
 
 .first-block,
-.logo{
+.logo {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
 
-.flag{
+.flag {
   display: flex;
   flex-direction: row;
   align-items: center;
-  flex-wrap: nowrap; 
+  flex-wrap: nowrap;
   height: 5%;
 }
-.line-green{
+.line-green {
   background-color: rgb(23, 126, 23);
   height: 5%;
   width: 70%;
- 
 }
-.line-white{
+.line-white {
   background-color: rgb(255, 255, 255);
   height: 5%;
   width: 5%;
 }
 
-.line-red{
+.line-red {
   background-color: rgb(253, 0, 0);
   height: 5%;
   width: 25%;
 }
 
-.footer{
+.footer {
   background-color: rgb(23, 126, 23);
   color: white;
   display: flex;
@@ -94,154 +93,152 @@ background-color: white;
   justify-content: space-evenly;
 }
 
-.contacts a{
+.contacts a {
   text-decoration: none;
   cursor: pointer;
   color: white;
 }
-.contacts p{
-font-size: 16px;
+.contacts p {
+  font-size: 16px;
 }
 
-.cheif-img{
+.cheif-img {
   width: 100px;
   padding-left: 18%;
 }
 
 /* special proposition page*/
 
-.meal-title{
-color: gray;
-font-size: 22px;
-background-color: white;
+.meal-title {
+  color: gray;
+  font-size: 22px;
+  background-color: white;
 }
-.main-picture{
+.main-picture {
   width: 100%;
 }
-li{
+
+li {
   list-style: none;
 }
 /*#meal-special-proposition{
 color:  rgb(231, 99, 38);
 }*/
-.form-header{
-font-size: 18px;
-color:  rgb(231, 99, 38);
+.form-header {
+  font-size: 18px;
+  color: rgb(231, 99, 38);
 }
-input[type=text]{
+input[type="text"] {
   border: 1px solid #ccc;
   border-radius: 4px;
   height: 30px;
 }
 
-.form-reservation{
+.form-reservation {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-#number_of_guests{
+#number_of_guests {
   width: 75px;
   border: 1px solid #ccc;
   border-radius: 4px;
   height: 30px;
 }
 
-.submit-btn{
-  background-color:  rgb(23, 126, 23);
-  color:white;
+.submit-btn {
+  background-color: rgb(23, 126, 23);
+  color: white;
   border: none;
-  width:250px;
+  width: 250px;
   height: 40px;
   border-radius: 3px;
 }
 
-
 /*review*/
-.review{
-background-color: rgb(250, 250, 250);
-border-radius: 5px;
-margin-left: 15px;
-margin-bottom: 5px;
-display: flex;
-flex-direction: column;
-align-content:center;
+.review {
+  background-color: rgb(250, 250, 250);
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
-.review p{
+.review p {
   padding-left: 4px;
   padding-top: 4px;
   margin-bottom: 5px;
 }
-.date{
+.date {
   color: green;
 }
-.star{
-color: rgb(231, 99, 38);
+.star {
+  color: rgb(231, 99, 38);
 }
 
 /*About*/
-.conteiner-about{
+.conteiner-about {
   margin-top: 10%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.about-text{
+.about-text {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 50%;
 }
 .social-net,
-.go-project-link{
+.go-project-link {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-between;
-  width:38%;
+  width: 38%;
 }
-.social-net a{
+.social-net a {
   text-decoration: none;
   cursor: pointer;
   color: black;
 }
 
-.picture-about{
-  width:90%;
+.picture-about {
+  width: 90%;
 }
-.about-link{
+.about-link {
   font-size: 20px;
 }
 
-
-
 @media only screen and (max-width: 500px) {
-  #logo{
+  #logo {
     width: 120px;
     height: 105px;
     margin-bottom: 10px;
     margin-top: 10px;
   }
   .menu a {
-padding-right: 0;
-border-bottom: 1px solid rgb(206, 201, 201);
-}
-  .menu{
+    padding-right: 0;
+    border-bottom: 1px solid rgb(206, 201, 201);
+  }
+  .menu {
     margin-bottom: 4%;
     align-items: center;
     flex-direction: column;
-    justify-content: start; 
+    justify-content: start;
   }
-  .main-picture{
-width: 100%;
+  .main-picture {
+    width: 100%;
   }
 
-  .menu a{
-  font-size: 22px;
-  margin-bottom: 20px;
+  .menu a {
+    font-size: 22px;
+    margin-bottom: 20px;
   }
-  .contacts p{
+  .contacts p {
     font-size: 14px;
     margin-top: 1px;
   }
@@ -250,34 +247,31 @@ width: 100%;
     width: 100px;
     padding-left: 0;
     margin-bottom: 5px;
-}
-.picture-about{
-  width:100%;
-}
-.about-text{
-width: 80%;
-}
-.contacts{
-display: flex;
-align-items: center;
-flex-direction: column;
-justify-content: start; 
-margin-top: 5px;
+  }
+  .picture-about {
+    width: 100%;
+  }
+  .about-text {
+    width: 80%;
+  }
+  .contacts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 5px;
+  }
 
-}
+  .footer {
+    flex-direction: column;
+  }
 
-.footer{
-  
-  flex-direction: column;
-}
+  .social-net,
+  .go-project-link {
+    width: 90%;
+  }
 
-.social-net,
-.go-project-link{
-  width:90%;
-}
-
-#number_of_guests{
-  width: 72px; 
-}
-
+  #number_of_guests {
+    width: 72px;
+  }
 }

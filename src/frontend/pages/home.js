@@ -16,7 +16,7 @@ window.handleHomeRequest = () => {
   
 <div class="first-block">
   <div class="first-block-img">
-  <img class="main-picture" src="https://live.staticflickr.com/65535/50116875496_15a8c33420_k.jpg" alt="main picture pizza"> </div>
+  <img class="main-picture" src="https://live.staticflickr.com/65535/50532669536_b376c122f3_h.jpg" alt="main picture pizza"> </div>
 </div>
 
 <div class="flag">
@@ -30,7 +30,7 @@ window.handleHomeRequest = () => {
   <div class="contacts">
   <p class="contact-title">Contacts</p>
   <p>phone: +46 72 443 92 23</p>
-  <p>liudmyla.chyzhova@gmail.com></p>
+  <p>lucy.chyzhova@gmail.com></p>
   <p><a href="https://www.linkedin.com/in/liudmylachyzhova/" target="_blank">LinkedIn</a></p>
   </div>
 
