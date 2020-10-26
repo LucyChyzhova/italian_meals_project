@@ -29,8 +29,8 @@ function renderMeal(meal) {
 
   <div class="contacts">
   <p class="contact-title">Contacts:</p>
-  <p>phone: +45 50154613</p>
-  <p>liudmyla.chyzhova@gmail.com></p>
+  <p>phone: +46 72 443 92 23</p>
+  <p>lucy.chyzhova@gmail.com></p>
   <p><a href="https://www.linkedin.com/in/liudmylachyzhova/" target="_blank">LinkedIn</a></p>
   </div>
   <div>
